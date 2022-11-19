@@ -1,4 +1,4 @@
-## PROJECT MONTY
+## PROJECT MONTY - 0x19. C - Stacks, Queues - LIFO, FIFO
 
 
 ## DEFINTIONS:
