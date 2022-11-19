@@ -43,7 +43,7 @@ typedef struct instruction_s
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-/*  FUNCTION PROTOTYPES */
+/*  FUNCTION PROTOTYPES BELOW */
 int write_to_SO(char c);
 int write_to_SE(char c);
 void errHand(int eNum, char *errArg, unsigned int lNum);
