@@ -4,9 +4,7 @@
 /* our one allowed global */
 extern char **theGrail;
 
-/*
- * libraries - to be included
- */
+/* STANDARD  LIBRARIES */
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,9 +12,7 @@ extern char **theGrail;
 #include <stdarg.h>
 #include <fcntl.h>
 
-/*
- * structs below
- */
+/*  STRUCTS & TYPEDEF  */
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -34,7 +30,7 @@ typedef struct stack_s
 } stack_t;
 
 /**
- * struct instruction_s - opcode and its function
+ * struct instruction_s - opcode and the function
  * @opcode: the opcode
  * @f: function to handle the opcode
  *
@@ -47,9 +43,7 @@ typedef struct instruction_s
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-/*
- * prototypes - function protos below
- */
+/*  FUNCTION PROTOTYPES */
 int write_to_SO(char c);
 int write_to_SE(char c);
 void errHand(int eNum, char *errArg, unsigned int lNum);
