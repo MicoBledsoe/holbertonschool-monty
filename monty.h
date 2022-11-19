@@ -1,8 +1,8 @@
-#ifndef HOLY_GRAIL_H_
-#define HOLY_GRAIL_H_
+#ifndef MONTY_H_
+#define MONTY_H_
 
 /* our one allowed global */
-extern char **theGrail;
+extern char **theMonty;
 
 /* STANDARD  LIBRARIES */
 #include <unistd.h>
