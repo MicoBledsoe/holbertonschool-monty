@@ -8,12 +8,21 @@
  */
 int main(int argc, char *argv[])
 {
-	stack
+	FILE *theMonty
+	
 	if (argc != 2)
 	{
 		fprintf(stderr, "USAGE: monty file\n");
 		exit(EXIT_FAILURE);
 	}
 	getline(argv[1]);
-	return (0);
 }
+	theMonty = fopen(file, "r");
+ 	if (fp == NULL)
+ 	{
+ 		fprintf(stderr, "Error: Can't open file %s\n", file);
+ 		exit(EXIT_FAILURE);
+ 	}
+
+ 	return (f\\p);
+ }
