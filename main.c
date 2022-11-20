@@ -1,28 +1,15 @@
-#include "monty.h"
-
+#include"monty.h"
 /**
- * main - main function for monty interpreter
- * @argv: arguments for monty language
- * @argc: numbers of arguments for monty command
- * Return: the action of the command on monty language
+ * main - Main entry
+ * Description: Monty bytecodes files interpreter
+ * @argc: total of arguments
+ * @argv: The arguments, monty files
+ * Return: int
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	FILE *theMonty
-	
 	if (argc != 2)
-	{
-		fprintf(stderr, "USAGE: monty file\n");
-		exit(EXIT_FAILURE);
-	}
-	getline(argv[1]);
+		error_arguments();
+	open_and_read(argv);
+	return (0);
 }
-	theMonty = fopen(file, "r");
- 	if (fp == NULL)
- 	{
- 		fprintf(stderr, "Error: Can't open file %s\n", file);
- 		exit(EXIT_FAILURE);
- 	}
-
- 	return (f\\p);
- }
