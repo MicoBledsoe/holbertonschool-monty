@@ -15,8 +15,9 @@ LIFO - Stands for Last in, First out it is the same as First in, Last out (FILO)
 ![1*r4Bfo3rrFprzFM2zbgzZXA](https://user-images.githubusercontent.com/108279441/202910416-0f9a1d0f-c85d-43cf-a38c-be35e39dc93e.jpeg)
 
 ## EXTRA INFO:
-Usage: monty file
-➡1where file is the path to the file containing Monty byte code
+Project file: monty file
+
+➡where file is the path to the file containing Monty byte code
 
 ➡If the user does not give any file or more than one argument to your program, print the error message USAGE: monty file, followed by a new line, and exit with the status EXIT_FAILURE
 
