@@ -45,3 +45,7 @@ The interpreter robustly handles errors, including:
 - **File errors**: If no file is given, multiple arguments are provided, or the file cannot be opened.
 - **Syntax errors**: If an invalid instruction is encountered or if there are issues with the line format in the bytecode file. Specific errors will provide detailed messages to assist in debugging.
 - **Memory errors**: Proper messages and exits if the system cannot allocate memory.
+
+## Collaborators
+- **Frandy Slueue** (@Frandy4ever)
+- **Mico Bledsoe** (@MicoBledsoe)
